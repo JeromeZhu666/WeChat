@@ -1,8 +1,8 @@
-package xin.jerome.weichat.controller;
+package xin.jerome.wechat.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import xin.jerome.weichat.util.MsgUtil;
+import xin.jerome.wechat.util.MsgUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;

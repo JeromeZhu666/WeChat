@@ -1,4 +1,4 @@
-package xin.jerome.weichat.util;
+package xin.jerome.wechat.util;
 
 import java.security.MessageDigest;
 

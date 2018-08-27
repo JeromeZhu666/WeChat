@@ -1,17 +1,9 @@
-package xin.jerome.weichat.controller;
+package xin.jerome.wechat.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import xin.jerome.weichat.entity.TextMsg;
-import xin.jerome.weichat.util.CheckUtil;
-import xin.jerome.weichat.util.MsgUtil;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.time.Instant;
-import java.util.Map;
+import xin.jerome.wechat.util.CheckUtil;
 
 /**
  * WeiChat check server

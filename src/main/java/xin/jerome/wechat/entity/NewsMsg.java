@@ -1,4 +1,4 @@
-package xin.jerome.weichat.entity;
+package xin.jerome.wechat.entity;
 
 import java.util.List;
 

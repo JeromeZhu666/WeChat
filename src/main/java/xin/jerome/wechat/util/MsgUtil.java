@@ -1,4 +1,4 @@
-package xin.jerome.weichat.util;
+package xin.jerome.wechat.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,9 +15,9 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import xin.jerome.weichat.entity.New;
-import xin.jerome.weichat.entity.NewsMsg;
-import xin.jerome.weichat.entity.TextMsg;
+import xin.jerome.wechat.entity.New;
+import xin.jerome.wechat.entity.NewsMsg;
+import xin.jerome.wechat.entity.TextMsg;
 
 /**
  * dispose msg utils

@@ -1,8 +1,8 @@
-package xin.jerome.weichat.config;
+package xin.jerome.wechat.config;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import xin.jerome.weichat.WeichatApplication;
+import xin.jerome.wechat.WechatApplication;
 
 /**
  * init Servlet for package to war
@@ -14,7 +14,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(WeichatApplication.class);
+        return builder.sources(WechatApplication.class);
     }
 
 }

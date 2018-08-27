@@ -1,4 +1,4 @@
-package xin.jerome.weichat;
+package xin.jerome.wechat;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class WeichatApplicationTests {
+public class WechatApplicationTests {
 
 	@Test
 	public void contextLoads() {

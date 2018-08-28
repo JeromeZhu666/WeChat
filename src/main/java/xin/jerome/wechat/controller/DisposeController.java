@@ -36,6 +36,12 @@ public class DisposeController {
             } else if ("3".equals(content)) {
                 replyContent = MsgUtil.initNewsMsg(fromUserName,toUserName);
                 return replyContent;
+            } else if ("4".equals(content)) {
+                replyContent = MsgUtil.initImageMsg(fromUserName,toUserName);
+                return replyContent;
+            } else if ("5".equals(content)) {
+                replyContent = MsgUtil.initMusicMsg(fromUserName,toUserName);
+                return replyContent;
             } else if ("?".equals(content) || "？".equals(content)) {
                 replyContent = MsgUtil.initMenuText();
             } else {
@@ -45,6 +51,8 @@ public class DisposeController {
         }else if(MsgUtil.MSG_EVENT.equals(msgType)) {
             String eventType = map.get("Event");
             if (MsgUtil.MSG_SUBSCRIBE.equals(eventType)) {
+                replyMsg = MsgUtil.initTextMsg(fromUserName, toUserName, MsgUtil.initMenuText());
+            } else if (MsgUtil.MSG_CLICK.equals(eventType)) {
                 replyMsg = MsgUtil.initTextMsg(fromUserName, toUserName, MsgUtil.initMenuText());
             }
         }
